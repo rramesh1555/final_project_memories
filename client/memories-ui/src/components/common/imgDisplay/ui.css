@@ -1,0 +1,36 @@
+.imgPreview {
+    display: flex;
+    width: 100%;
+}
+
+.imgPreview li {
+    width: 143px;
+    height: 134px;
+    border: solid 4px #0b8964;
+    margin-right: 18px;
+    position: relative;
+    padding: 0;
+}
+
+.close {
+    position: absolute;
+    width: 20px;
+    background: red;
+    border-radius: 35px;
+    height: 20px;
+    text-align: center;
+    line-height: 21px;
+    color: #fff;
+    font-size: 12px;
+    top: -13px;
+    right: -16px;  
+    margin: 7px;  
+}
+
+  
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

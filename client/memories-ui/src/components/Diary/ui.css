@@ -1,0 +1,48 @@
+#diary {
+    background: url("../../images/diaryRuler.png");
+    /* border: Solid 2px #eaeaea; */
+    min-height: 299px;
+    /* box-shadow: 2px 2px 5px rgb(0 0 0 / 59%); */
+    line-height: 35px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Segoe Script', cursive;
+
+}
+
+div#diary:focus {
+    outline: 0px transparent;
+}
+
+.diaryWrapper {
+  
+   
+    height: 316px;
+    padding-left: 16px;
+    overflow-y: scroll;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 59%);
+    border: Solid 2px #eaeaea;
+
+}
+
+.diaryContainer {
+    position: relative;
+    margin-left: 20px;
+    max-width: 98%;
+    margin: 10px 15px 0;
+    
+}
+
+.diaryContainer .before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 6px;
+    width: 36px;
+    height: 100%;
+    background: url("../../images/loops.png") repeat-y;
+
+}

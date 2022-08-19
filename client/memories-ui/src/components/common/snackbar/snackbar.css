@@ -1,0 +1,42 @@
+.snackbarItm {
+    width: 96%;
+    background: #0b8964;
+    padding: 14px;
+    text-align: center;
+    margin: 0 auto 4px auto;
+    font-size: 15px;
+
+}
+
+.snackbarItm.success {
+    background: #0b8964;
+    text-align: center;
+    color:white;
+    
+    border-radius: 4px;
+    
+}
+.snackbarItm.error {
+    background: #9e2626;
+    text-align: center;
+   color: white;
+    border-radius: 4px;
+ 
+}
+.snackbarItm.warning {
+    background: #d29651;
+    text-align: center;  
+    color: white;  
+    border-radius: 4px; 
+
+}
+
+.snackbarWrap {
+    position: fixed;
+    top: 2em;
+    right: 1.5em;
+    width: 30%;
+    z-index: 100000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;    
+}

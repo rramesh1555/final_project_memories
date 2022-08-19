@@ -1,0 +1,89 @@
+/* .loginWrap  {
+    max-width : 340px;
+    margin: 30px auto;
+    background-color: #ccc;
+    border: solid 1px #a1a1a1;
+    padding: 30px 30px 10px 30px;
+    text-align: center;
+  }
+
+  .loginWrap a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+  } */
+  body{
+
+    margin: 0;
+   margin-bottom: 0px!important;
+  }
+  
+  #content {
+    padding: 20px;
+  }
+
+  .border-md {
+    border-width: 2px;
+}
+
+.btn-facebook {
+    background: #405D9D;
+    border: none;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+    background: #314879;
+}
+
+.btn-twitter {
+    background: #42AEEC;
+    border: none;
+}
+
+.btn-twitter:hover, .btn-twitter:focus {
+    background: #1799e4;
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+    min-height: 100vh;
+}
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('../../images/mcollection2.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
