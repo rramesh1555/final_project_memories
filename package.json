@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy":"cd client && cd memories-ui && npm start",
+    "deploy": "cd client && cd memories-ui && npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
     "client": "cd client && cd memories-ui && npm start",
